@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-03T09:53:15Z" name="Suite" finished-at="2024-07-03T09:53:19Z" duration-ms="3915">
+    <groups>
+    </groups>
+    <test started-at="2024-07-03T09:53:15Z" name="Test" finished-at="2024-07-03T09:53:19Z" duration-ms="3915">
+      <class name="employeeTest.EmployeeTest">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:employeeTest.EmployeeTest@401f7633]" started-at="2024-07-03T09:53:13Z" name="configBS" finished-at="2024-07-03T09:53:15Z" duration-ms="1704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method signature="addEmployeWithOutEmail()[pri:0, instance:employeeTest.EmployeeTest@401f7633]" started-at="2024-07-03T09:53:15Z" name="addEmployeWithOutEmail" finished-at="2024-07-03T09:53:17Z" duration-ms="1827" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployeWithOutEmail -->
+        <test-method signature="addEmployeeTest()[pri:0, instance:employeeTest.EmployeeTest@401f7633]" started-at="2024-07-03T09:53:17Z" name="addEmployeeTest" finished-at="2024-07-03T09:53:18Z" duration-ms="643" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmployeeTest -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:employeeTest.EmployeeTest@401f7633]" started-at="2024-07-03T09:53:19Z" name="configAS" finished-at="2024-07-03T09:53:19Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- employeeTest.EmployeeTest -->
+      <class name="projectTest.ProjectTest">
+        <test-method signature="addSingleProjectWithCreated()[pri:0, instance:projectTest.ProjectTest@31ff43be]" started-at="2024-07-03T09:53:18Z" name="addSingleProjectWithCreated" finished-at="2024-07-03T09:53:19Z" duration-ms="1293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSingleProjectWithCreated -->
+        <test-method signature="addDuplicateProjectTest()[pri:0, instance:projectTest.ProjectTest@31ff43be]" started-at="2024-07-03T09:53:19Z" name="addDuplicateProjectTest" finished-at="2024-07-03T09:53:19Z" depends-on-methods="projectTest.ProjectTest.addSingleProjectWithCreated" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addDuplicateProjectTest -->
+      </class> <!-- projectTest.ProjectTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
